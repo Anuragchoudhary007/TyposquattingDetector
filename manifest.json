@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Typosquat Detector",
+  "version": "1.0",
+  "description": "Protects you from common typosquatting domains.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}

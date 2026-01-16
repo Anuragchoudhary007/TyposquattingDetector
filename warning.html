@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typosquatting Warning</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #ffe5e5; color: #cc0000; }
+    h1 { color: #800000; }
+    #safe-button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; font-size: 1.2em; border-radius: 5px; margin: 10px; }
+    #unsafe-link { color: #cc0000; }
+  </style>
+</head>
+<body>
+  <h1>🚨 DANGER: Potential Typosquatting Detected 🚨</h1>
+  <p>The domain you attempted to visit (<strong id="visited-domain"></strong>) is suspiciously similar to the protected domain (<strong id="target-domain"></strong>).</p>
+  <button id="safe-button">Go to Safe Site</button>
+  <p>
+    <a href="#" id="unsafe-link">Proceed to the potentially unsafe site anyway</a>
+  </p>
+  <script src="warning.js"></script>
+</body>
+</html>
